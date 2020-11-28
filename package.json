@@ -19,14 +19,19 @@
     "url": "https://github.com/dannytracy19/2048remake/issues"
   },
   "dependencies": {
+    "axios": "^0.21.0",
     "Math": "0.0.1-security",
     "browser-sync": "^2.26.13",
     "bulma": "^0.9.1",
+    "cors": "^2.8.5",
+    "data-store": "^4.0.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
     "heroku": "^7.47.3",
     "jquery": "^3.5.1",
     "keypress": "^0.2.1",
     "mathjs": "^7.5.1"
   },
   "devDependencies": {},
-  "description": ""
+  "description": "My remake of 2048"
 }
