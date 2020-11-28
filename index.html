@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" style = "overflow: hidden; min-height : 100vh; margin: 0px; background-color: lightgrey; line-height: 1; position: relative;">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="node_modules/bulma/css/bulma.css"/>
+        <title>2048 Remake</title>
+
+        <!-- Include links to CSS stylesheets below -->
+        <!-- TODO (optional): Add link to bulma here -->
+    </head>
+
+    <body style = "min-height: 100vh; width: 100%; margin: 0px; box-sizing: border-box">
+        <h1 class ="title has-text-info is-family-secondary" style ="text-align: center; margin-bottom: 30px; margin-top: 30px; font-size: 50px">2048</h1>
+        <div id="root">
+          <table class = "table is-bordered" style = "background-color: lightgrey; height: 450px; width: 100%; float: left;"></table>
+        </div>
+        <div style = "display: inline-block; width: 100%; height: 100%">
+          <div class = "score" style = "display: inline-block; align-items: left"> </div>
+          <button class ="button is-dark reset" style = "float:left; display: inline-block; width: 50%; height: 90px; font-size: 35px; text-align: center">reset</button>
+        </div>
+        <div class = "buttons">
+
+        </div>
+        
+                
+        <!-- Include links to JavaScript files below -->
+        <!-- TODO: Add link to jQuery here -->
+        <script src = "node_modules/jquery/dist/jquery.js"></script>
+        <script src="engine/game.js"type="module"></script>
+        <script src="controller.js" type="module"></script>
+    </body>
+</html>
